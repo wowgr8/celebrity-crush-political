@@ -1,0 +1,38 @@
+.btn {
+  display: block;
+}
+#result {
+  display: none;
+}
+.box1 {
+  width: 50%;
+  padding: 20px;
+  border: 10px solid black;
+  float: center;
+  border-width: 20px;
+  background-color: blue;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.box2 {
+  width: 50%;
+  padding: 20px;
+  border: 10px solid black;
+  float: center;
+  border-width: 20px;
+  background-color: red;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  align-items: center;
+}
