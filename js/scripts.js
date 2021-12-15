@@ -9,8 +9,7 @@ $(document).ready(function() {
     if (total < 5) {
       let resultVal = "Republican";
       $("#political-party").text(resultVal);
-      }
-      else if (total >= 5 && 8) { 
+      } else if (total >= 5 && 8) { 
         let resultVal  = "Green Party";
         $("#political-party").text(resultVal);
       } else {
@@ -19,7 +18,6 @@ $(document).ready(function() {
       }
       
       $("#result").show();
-
   });
 });
 
