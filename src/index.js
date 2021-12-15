@@ -1,3 +1,9 @@
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+import test from './js/celeb-BL.js'
+
 $(document).ready(function() {
   $("form#celebrity-quiz").submit(function(event) {
     event.preventDefault();
@@ -5,6 +11,7 @@ $(document).ready(function() {
     const celeb2 = parseInt($("#celebrity-choice-2").val());
     const celeb3 = parseInt($("#celebrity-choice-3").val());
     const total = celeb1 + celeb2 + celeb3;
+    test();
     
     if (total < 5) {
       let resultVal = "Republican";
